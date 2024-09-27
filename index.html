@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2024美國大選系列報導</title>
+    <link rel="shortcut icon" href="https://buelearning.hkbu.edu.hk/theme/image.php/boost/theme/1633024861/favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FREEHTML5.CO" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: none;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+            background-color: #d3d3d3;
+        }
+        /* Position the image container (needed to position the left and right arrows) */
+        
+        .container {
+            position: relative;
+        }
+        /* Hide the images by default */
+        
+        .mySlides {
+            display: none;
+        }
+        /* Add a pointer when hovering over the thumbnail images */
+        
+        .cursor {
+            cursor: pointer;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 30px;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Number text (1/3 etc) */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* Container for image text */
+        
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Six columns side by side */
+        
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+        /* Add a transparency effect for thumnbail images */
+        
+        .demo {
+            opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="fh5co-offcanvas">
+        <a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
+        <!--<div class="fh5co-bio">
+			<figure>
+				<img src="images/person1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+			</figure>
+			<h3 class="heading">About Me</h3>
+			<h2>Emily Tran Le</h2>
+			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+			<ul class="fh5co-social">
+				<li><a href="#"><i class="icon-twitter"></i></a></li>
+				<li><a href="#"><i class="icon-facebook"></i></a></li>
+				<li><a href="#"><i class="icon-instagram"></i></a></li>
+			</ul>
+		</div>-->
+
+        <div class="fh5co-menu">
+            <div class="fh5co-box">
+                <h3 class="heading">大綱</h3>
+                <ul>
+                    <br></br>
+                        <li><a href="#Introduction">引入</a>
+                        <br></br>
+                        <li><a href="#Background">美國大選，到底怎麼進行？</a>
+                            <br></br>
+                            <li><a href="#Popular 'Da Chang'">各州選民，都在支持誰？</a>
+                                <br></br>
+                                <!-- <li><a href="#The Downside of Working in Da Chang"></a>
+                                    <br></br> -->
+                                    <li><a href="#All work and no play?">兩黨候選人有什麼政策？</a>
+                                        <br></br>
+                                    <!-- <li><a href="#Young people desire Da Chang, as Da Chang desires them">Young people desire Da Chang, as Da Chang desires them</a> -->
+                </ul>
+            </div>
+            <!--<div class="fh5co-box">
+				<h3 class="heading">Search</h3>
+				<form action="#">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Type a keyword">
+					</div>
+				</form>
+			</div>-->
+        </div>
+    </div>
+
+    <!-- END #fh5co-offcanvas -->
+
+    <header id="fh5co-header">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                <!--<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				</ul>
+				-->
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h1 id="fh5co-logo"><a href="index.html"><!--<sup>TM</sup>--></a></h1>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- <a href="#" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> Prev</span></a>
+	<a href="#" class="fh5co-post-next"><span>Next <i class="icon-chevron-right"></i></span></a> -->
+    <!-- END #fh5co-header -->
+
+    <div class="container-fluid">
+        <div class="row fh5co-post-entry single-entry">
+            <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                <figure class="animate-box">
+                    <img src="images/90.png" alt="Image" style="width: 100%" class="img-responsive">
+                </figure>
+                <!--<span class="fh5co-meta animate-box"><a href="single.html">Travel</a></span>-->
+                <h2 class="fh5co-article-title animate-box">2024美國大選系列報導</a>
+                </h2>
+                <h3 class="tagline animate-box">一文看懂選舉重點</h3>
+            
+                <span class="fh5co-meta fh5co-date animate-box">9月27日</span>
+
+                <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                    <div class="row">
+                        <!--<div class="col-lg-8 cp-r animate-box">-->
+                                
+                        <div id="Introduction" class="col-md-12 animate-box">
+
+                            <div class="col-md-12 animate-box">
+    
+                                <p> 2024年第60屆美國總統大選將於11月5 日（星期二）舉行。同時，眾議院全部435個席位及參議院其中33個議席也將進行改選，以產生第119屆美國國會。總統候選人方面，前任總統唐納德·特朗普（Donald Trump）將代表共和黨參加選舉。民主黨則由副總統賀錦麗（Kamala Harris）接替總統喬·拜登（Joe Biden）成為總統候選人。此外，還有以小羅伯特·F·肯尼迪（Robert F. Kennedy Jr.）為代表的獨立參選人角逐總統職位，但肯尼迪已在8月下旬退選，轉而支持特朗普。</p>
+
+                                <p>本文將從選舉方法、候選人支持率及政策出發，對2024年美國大選進行基本介紹。後續將推出一系列文章，多個角度深度分析此次選舉。</p>
+    
+                            </div>
+
+                            
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <!--<div class="col-lg-8 cp-r animate-box">-->
+
+                        <div id="Background" class="col-md-12 animate-box">
+
+                            <div class="col-md-12 animate-box">
+                                <h2>美國大選，到底怎麼進行？</h2>
+    
+                                <p> 美國選舉的流程主要分為初選與黨團會議、各黨派全國代表大會、大選投票、選舉人（團）投票四個階段。不同於一般的直接民選，美國總統選舉會採取選舉人團方式進行選舉。各州選民將票投給代表民主黨、共和黨或其他政黨的選舉人，再由得票最高的選舉人政黨組成該州的選舉人團，行使總統投票權。通常各州的選舉人數量由該州人口數量決定。總統候選人若想贏得選舉，需在538張選舉人票種取得超過半數（270票）的選舉人票。</p>
+                                
+    
+                            </div>
+    
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGRxbWpjn8/qkf8S46x-8HgqfVIFx_T6g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe></div>
+                            
+                                
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGR42zM3KU/vf9bOBL-NX-yXL0YgRS6XA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+                            </div>
+                            
+                               
+                            
+
+                            
+
+                        </div>
+
+                    </div>
+
+                    <!--div class="row rp-b">
+						<div class="col-lg-6 col-md-12 animate-box">
+							<figure>
+								<img src="images/pic_1.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
+								<figcaption>This is a sweet image caption. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-6 col-md-12 cp-l animate-box">
+						<div class="col-md-12 animate-box">
+							<p>It seems exciting to be a part of a giant company that influence our everyday lives, but discussion about whether it is a good choice to work in Da Chang has become a controversial topic in recent years. </p>
+
+							<p>Despite the popularity of “Da Chang” working opportunities, some said the work they do in these companies does not satisfy their expectations. Joy Su, a former intern of Tencent, said the long working hours and repetitive works made her disappointed in Da Chang works. “I feel like I am a tiny piece of wood in a huge fireplace. Every day I keep this fire burning with my past experience and knowledge, but I’m not learning something new. I know sooner or later I will be used up.” said Joy Su. </p>
+
+						</div>
+					</div>-->
+
+                    <!--<div class="row rp-b">
+						
+						<div class="col-md-12 animate-box">
+							<blockquote>
+								<p>&ldquo;To get this internship, I filled out pages of application form, passed one written exam, and had three rounds of interviews, &rdquo; <cite>&mdash; Sophia Sheng</cite></p>
+							</blockquote>
+						</div>
+					</div>-->
+
+                    <div id="Popular 'Da Chang'" class="row">
+                        <div class="col-md-12 animate-box"></div>
+                            <h2>各州選民，都在支持誰？</h2>
+
+                            <p>從往屆選舉數據來看，在美國東北部、新英格蘭地區和西海岸傾向將選票於投給民主黨，而南部和中西部，以及阿拉斯加州則更加支持共和黨。這些擁有不同政治傾向的州被冠以兩個政黨的代表色，被稱為“藍州”和“紅州”。</p>
+
+                            <p>而傾向不明顯的州被稱為搖擺州，也被人們叫做“紫州”，例如俄亥俄州、艾奧瓦州、亞利桑那州等。這些州往往對最後的選舉結果影響較大。</p>
+
+                            <div class="flourish-embed flourish-map" data-src="visualisation/19525327"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19525327/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+
+                            <div class="flourish-embed flourish-map" data-src="visualisation/19521991"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19521991/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+                            <p>本月23日《紐約時報》和錫耶納學院的最新<a href="https://www.nytimes.com/interactive/2024/09/23/us/elections/times-siena-sun-belt-crosstabs.html">民調</a>顯示，特朗普的支持率在亞利桑那州、佐治亞州和北卡羅來納州這三個搖擺州中的競爭中領先。其中，特朗普在亞利桑那州和喬治亞州的支持率分別領先賀錦麗5%和4%。在2020年大選中，特朗普曾在這兩個州的競爭中輸給現任總統拜登。但在北卡羅來納州，特朗普僅以微弱優勢領先於賀錦麗。據悉，該州自2008年以來一直投票支持共和黨人。</p>
+
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/19526266"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19526266/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+                        
+                    </div>
+
+                    <div id="All work and no play?" class="row">
+                        <div class="col-md-12 animate-box"></div>
+                            <h2>兩黨候選人有什麼政策？</h2>
+
+                            <p>距離美國總統大選還有不到50天的時間，民主黨候選人賀錦麗和共和黨候選人特朗普將進入最後的角逐。這場選舉將對美國的經濟發展、社會議題以及國際關係等產生深遠影響。下圖列出賀錦麗和特朗普關於對華政策、經濟政策、俄烏戰爭、以巴衝突的熱點話題不同的觀點和政策。</p>
+
+
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 250.0000%;padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border-radius: 8px; will-change: transform;"><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"src="https://www.canva.com/design/DAGRmibOyi0/919hheCDHJh47Lxvkj083A/view?embed" allowfullscreen="allowfullscreen"allow="fullscreen">
+                            </iframe>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <footer id="fh5co-footer">
+        <p><small>&copy; By Zhang Yilin, HE Jinyi<!--<br> Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a>  Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a>--></small></p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+    <!-- To Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/to_top_button.png" alt="Image" class="img-responsive animate-box" width=30px height=30px></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+        // image gallary
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+</body>
+
+</html>
